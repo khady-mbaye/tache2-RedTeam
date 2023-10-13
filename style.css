@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Borel&family=Handjet:wght@400;500&family=Montserrat&family=Poppins:wght@200&family=Redressed&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Borel&family=Handjet:wght@400;500&family=Merriweather:ital,wght@0,300;0,400;1,700&family=Montserrat&family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap');
+
+.redressed{
+    font-family: 'Redressed' cursive;
+}
+.Merriweathe{
+    font-family: 'Merriweathe' , serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.couleur{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 90;
+}
+.couleur .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding 0.4s ease-in-out , border 0.3s ease;
+}
+.couleur .nav-link:hover{
+    border-color: var(--bs-teal);
+    padding-bottom: 20px;
+}
+.nav-item .btn-order ,.banner .btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+    
+}
+ .nav-item .btn-order:hover , .banner .btn-order:hover{
+    background-color: var(--bs-teal);
+    color: #fff;
+
+ }
+ .banner{
+    height: 1000px;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+   url('banniere2.jpg') center center fixed no-repeat ;
+   background-size: cover;
+   
+ }
+ .banner .btn-outline-order{
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+ }
+ .banner .btn-outline-order:hover{
+    background-color: #0dcaf0;
+    color: black;
+ }
+ .banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+ }
+ .m-menu , .sec-form{
+    height: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('banniere5.jpg') center center fixed no-repeat ;
+    background-size: cover;
+    
+ }
+ footer .container p{
+        cursor: pointer;
+    
+ }
+ @media (max-width:568px){
+    footer .container .row p , footer .container .row h2{
+        
+        text-align: center;
+        
+    }
+ }
